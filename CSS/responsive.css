@@ -1,0 +1,119 @@
+@media(max-width: 380px){
+    .header-content__titele{
+        font-size: 4rem;
+    }
+    .header-content__caption{
+        font-size: 1.5rem;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer__right{
+        justify-content: center;
+    }
+    .footer-list{
+        margin-left: 0;
+    }
+}
+@media(max-width: 576px){
+    .newsletter__title{
+        max-width: 18rem;
+    }
+}
+@media(min-width: 576px){
+    .newsletter__banner--img{
+        width: 70%;
+    }
+}
+@media(min-width: 768px){
+    .nav__btn{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .nav__btn,.nav-menu{
+        display: none;
+    } 
+    /* Newsletter */
+    .newsletter{
+        flex-direction: row;
+        text-align: left;
+    }
+    .newsletter__caption{
+        margin: 0;
+        max-width: 48rem;
+    }
+    .newsletter__banner--img{
+        width: 100%;
+    }
+    .newsletter__conntent{
+        flex-basis: 60%;
+        padding-right: 2rem;
+    }
+    .newsletter__banner{
+       flex-basis: 40%;
+    }
+    .newsletter::before{
+        width: auto;
+        height: auto;
+        top:-14rem;
+        left:-55rem;
+        background-size: auto;
+        background-position: center left;
+    }
+}
+@media(min-width: 992px){
+    .nav__links{
+        display: block;
+    }
+    .header-content__caption{
+        max-width: 50rem;
+    }
+    .newsletter__conntent{
+        padding-right: 4rem;
+    }
+    .newsletter__title{
+        font-family: "Archivo Black";
+        font-size: 2.8rem;
+        display: block;
+        color: var(--dark);
+        margin: .5rem;
+    }
+    .footer__scroll{
+        left: auto;
+    }
+    .newsletter::before{
+        top:-16rem;
+        left:-43rem;
+    }
+}
+@media(min-width: 1200px){
+    .newsletter__conntent{
+        flex-basis: auto;
+        width: 60rem;
+        margin-right: 5rem;
+    }
+    .newsletter__banner{
+       flex-basis:auto;
+       width: 42rem;
+       padding-left: 5rem;
+    }
+    .newsletter{        
+        justify-content: space-between;
+        padding: 3rem 4rem 3rem 6rem ;
+    }
+    .newsletter__banner--img{
+        width: 85%;
+    }
+    .newsletter::before{
+        top:-7rem;
+        left:-27rem;
+    }
+}
+@media(min-width: 1400px){
+    .newsletter{ 
+        padding: 3rem 6rem;
+    }
+
+}
